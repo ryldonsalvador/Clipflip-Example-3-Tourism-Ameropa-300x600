@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="ad.size" content="width=300,height=600" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0"
+    />
+    <title>300x600 Tourism Ameropa</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slide slide-1" data-slide="1">
+            <video
+              id="video-1"
+              muted
+              playsinline
+              loop
+              poster="./img/thumbnail_schweiz.png"
+            >
+              <source src="./videos/Schweiz.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="slide slide-2" data-slide="2">
+            <video
+              id="video-2"
+              muted
+              playsinline
+              loop
+              poster="./img/thumbnail_norwegen.png"
+            >
+              <source src="./videos/Norwegen.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="slide slide-3" data-slide="3">
+            <video
+              id="video-3"
+              muted
+              playsinline
+              loop
+              poster="./img/thumbnail_luxusreisen.png"
+            >
+              <source src="./videos/Luxuszreisen.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="slide slide-4" data-slide="4">
+            <video
+              id="video-4"
+              muted
+              playsinline
+              loop
+              poster="./img/thumbnail_radreisen.png"
+            >
+              <source src="./videos/Radreisen.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+      </div>
+      <div class="pagination" id="pagination">
+        <div class="line-1 lines"></div>
+        <div class="line-2 lines"></div>
+        <div class="line-3 lines"></div>
+        <div class="line-4 lines"></div>
+      </div>
+      <div class="content-container">
+        <div class="slide1-content slides-content">
+          <div class="text1">Bahnerlebnisreisen in der Schweiz</div>
+          <div class="text2">
+            Entdecken Sie einzigartige Landschaften abseits des dichten
+            Straßenverkehrs bei einer Bahn-Erlebnisreise.
+          </div>
+        </div>
+        <div class="slide2-content slides-content">
+          <div class="text1">Bahnerlebnisreisen in Skandinavien</div>
+          <div class="text2">
+            Von Trollen über Zimtschnecken bis Aurora Borealis. Hier finden Sie
+            unsere Skandinavien-Highlights.
+          </div>
+        </div>
+        <div class="slide3-content slides-content">
+          <div class="text1">Luxusreisen mit dem Zug</div>
+          <div class="text2">
+            Bei Ameropa können Sie ihre Luxusreise per Zug ganz einfach buchen.
+          </div>
+        </div>
+        <div class="slide4-content slides-content">
+          <div class="text1">Radreisen in Deutschland und Europa</div>
+          <div class="text2">
+            Entdecken Sie die Welt auf eine einzigartige und vor allem gesunde &
+            nachhaltige Art und Weise mit unseren Radreisen.
+          </div>
+        </div>
+      </div>
+      <div class="logo">
+        <a href="javascript:window.open(window.clickTag);void(0)">
+          <img src="./img/Ameropa_Logo_svg.svg" />
+        </a>
+      </div>
+      <div class="cta-button">
+        <a href="javascript:window.open(window.clickTag);void(0)">
+          Jetzt entdecken <img src="./img/arrow.svg" />
+        </a>
+      </div>
+      <a id="banner-click" class="banner-click" target="_blank"></a>
+      <div class="pad" id="btn-left-click">
+        <button id="prev">❮</button>
+      </div>
+      <div class="pad" id="btn-right-click">
+        <button id="next">❯</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="text/javascript">
+      var clickTag = "https://www.google.com";
+    </script>
+  </body>
+</html>
