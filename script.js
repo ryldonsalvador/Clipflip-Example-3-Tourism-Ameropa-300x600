@@ -192,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function startAutoPlay() {
     autoPlayInterval = setInterval(() => {
       moveSlide(1);
-    }, 2000); // Change slide every 2 seconds
+    }, 5000); // Change slide every 2 seconds
   }
 
   // Function to stop autoplay
